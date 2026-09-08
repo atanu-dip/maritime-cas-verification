@@ -23,7 +23,7 @@ This repository is an independent re-implementation, written from scratch, of an
 
 # Phase 2 - Perception in the Loop
 
-- A YOLOv8 detector fine-tuned on the Singapore Maritime Dataset (4,455 object instances, evaluated across 5 scales) feeds a first-principles monocular ranging model - spherical-Earth horizon geometry, hull-down occlusion, dual-cue inverse-variance fusion — and an EKF/UKF tracker.
+- A YOLOv8 detector fine-tuned on the Singapore Maritime Dataset (4,455 object instances, evaluated across 5 scales) feeds a first-principles monocular ranging model - spherical-Earth horizon geometry, hull-down occlusion, dual-cue inverse-variance fusion and an EKF/UKF tracker.
 - Perception costs 33–44 percentage points of safety relative to a perfect-information control condition, run on identical scenarios and seeds.
 - Mean time to a usable velocity estimate: 20.0 minutes, leaving only 3.8 minutes of time-to-closest-approach when the track becomes trustworthy - directly eroding the ‘ample time’ COLREGS Rule 8(a) assumes a human officer has.
 - A segmentation model trained for horizon detection was evaluated against ground truth and found systematically biased (28.91 px, 100% of the error a constant offset) - traced to a real sensor/domain mismatch (coastal land horizon vs. open-water sea horizon) - and correctly rejected by a principled invertibility check rather than silently used.
@@ -41,9 +41,9 @@ This repository is an independent re-implementation, written from scratch, of an
 
 # Phase 4 - Falsification and Deployment
 
-- Uniform random sampling is replaced with directed search (CMA-ES, Bayesian optimization) over the scenario space. Random search found a worst-case separation of −134 m in 200 trials; CMA-ES (multi-restart) found −371 m; Bayesian optimization found −578 m — a genuine near-collision at 2 m clearance.
-- A behavior-cloned neural policy, distilled from an MPC expert, achieves excellent imitation accuracy (MSE 0.00137) yet its closed-loop safety collapses from 99.4% to 47.2% — imitation accuracy does not predict deployed safety.
-- That policy was evaluated adversarially: directed search exposed a near-total collision (ρ = −924 m) that random testing - the default validation protocol for most learned systems — reported as only ρ = −605 m, a 319 m blind spot standard testing would have missed.
+- Uniform random sampling is replaced with directed search (CMA-ES, Bayesian optimization) over the scenario space. Random search found a worst-case separation of −134 m in 200 trials; CMA-ES (multi-restart) found −371 m; Bayesian optimization found −578 m - a genuine near-collision at 2 m clearance.
+- A behavior-cloned neural policy, distilled from an MPC expert, achieves excellent imitation accuracy (MSE 0.00137) yet its closed-loop safety collapses from 99.4% to 47.2% - imitation accuracy does not predict deployed safety.
+- That policy was evaluated adversarially: directed search exposed a near-total collision (ρ = −924 m) that random testing - the default validation protocol for most learned systems - reported as only ρ = −605 m, a 319 m blind spot standard testing would have missed.
 - The distilled policy runs 995× faster than the MPC expert - a deployable control policy, at a safety cost that is measured, not assumed away.
 
 
