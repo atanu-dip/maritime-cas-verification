@@ -100,4 +100,4 @@ Phase 2’s detector is fine-tuned on real maritime imagery, and Phase 2/4's hor
 
 # Acknowledgements
 
-The initial idea for this project - adapting scenario description language to maritime collision avoidance - originated and supervised within DNV's Research and Development unit.
+The initial idea for this project - adapting scenario description language to maritime collision avoidance - originated within DNV's Research and Development unit.
