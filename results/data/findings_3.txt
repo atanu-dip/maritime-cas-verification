@@ -1,0 +1,43 @@
+
+1. Ensemble disagreement separates reducible from irreducible error.
+   Median epistemic share of range variance: 0.26.
+   The part that shrinks with better models is distinguishable from the part
+   that does not, which is what tells a designer where to spend effort.
+
+2. The raw uncertainty estimate is not well calibrated.
+   Standardised residuals: mean 4.18, sd 26.43 (should be 0 and 1). ECE = 0.138.
+   DCPA is a distance and cannot be symmetric near a close approach, so a
+   Gaussian summary of it is wrong in a predictable direction.
+
+3. Conformal prediction restores a guarantee without distributional
+   assumptions.
+   At alpha = 0.10 the empirical coverage is 0.890 against a 0.900 target,
+   at a mean cost of 4225 m of conservatism.
+
+4. Uncertainty awareness must include knowing when the uncertainty is
+   meaningless.
+   Using the conformal bound before the track converges made the CAS LESS
+   safe: sigma_DCPA is then so large that the bound is below the limit almost
+   always, so the ship manoeuvres continuously on noise. Gating on track
+   readiness was required before the bound helped at all.
+   Point estimate: safety 0.650, progress loss 3.41%.
+   Risk-aware (Risk-aware (α=0.2)): safety 0.633, progress loss 3.31%, 5th-pct separation 216 m vs 174 m.
+
+5. COLREGS role inversion is real, and strongly asymmetric.
+   Dangerous inversions (give-way -> stand-on): 0.0339 of steps.
+   Conservative inversions (stand-on -> give-way): 0.1911 of steps.
+   The asymmetry has a cause: most targets are power-driven, so almost any
+   misclassification *raises* the target's apparent privilege and pushes
+   own-ship toward manoeuvring. Dangerous inversions need the rarer case of a
+   genuinely privileged vessel read as ordinary -- rarer, and worse.
+
+6. Temporal voting has no measurable effect here.
+   Dangerous inversion rate is 0.0264 at every window size tested (1 to 24 frames).
+   Consistent with Finding 5: measured Rule 18 class confusion is 0.000, so the per-frame category estimate
+   barely changes frame to frame. Voting only helps when the signal being
+   voted over is noisy; with confusion this low there is nothing to smooth,
+   and the role-flip rate measured earlier is therefore geometric in
+
+  classifier: CLIP zero-shot
+  error model: fitted from 4455 instances on real imagery, content scaled at fixed network input (apparent height 1.8-643 px)
+  ensemble members: 5

@@ -1,0 +1,4 @@
+variant,latency (µs),size (kB),note
+MPC (expert),36689.228,,grid search per decision
+Policy (numpy),36.866,40.0,no framework
+Policy (ONNX fp32),,1.681,portable

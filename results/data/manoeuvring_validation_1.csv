@@ -1,0 +1,6 @@
+vessel,L (m),advance (L),transfer (L),tactical diam. (L),steady turn (deg/s),IMO
+container_feeder,150.0,3.8,2.45,4.46,0.94,PASS
+handysize_bulker,180.0,3.93,2.55,4.63,0.67,PASS
+vlcc,330.0,3.83,2.54,4.6,0.33,PASS
+coastal_tanker,110.0,3.4,2.17,3.94,1.13,PASS
+trawler,45.0,2.78,1.69,2.99,2.69,PASS

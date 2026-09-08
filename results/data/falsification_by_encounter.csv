@@ -1,0 +1,10 @@
+encounter,method,encounter,evaluations,best robustness (m),violations found,evals to first violation,distinct counterexamples
+head_on,Random search,head_on,200,21.788,0,,0
+head_on,CMA-ES,head_on,198,0.235,0,,0
+head_on,Bayesian optimisation,head_on,120,13.702,0,,0
+crossing,Random search,crossing,200,-342.176,1,34.0,1
+crossing,CMA-ES,crossing,198,-889.79,12,156.0,10
+crossing,Bayesian optimisation,crossing,120,-923.713,56,25.0,30
+overtaking,Random search,overtaking,200,-82.273,3,34.0,3
+overtaking,CMA-ES,overtaking,198,-223.973,16,115.0,8
+overtaking,Bayesian optimisation,overtaking,120,-822.733,26,56.0,13

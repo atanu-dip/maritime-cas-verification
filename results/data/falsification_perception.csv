@@ -1,0 +1,7 @@
+,tgt_status,visibility,best ρ (m),violations,distinct,evals to first
+0,power_driven,good,-926.0,60,50,1
+1,power_driven,restricted,-926.0,80,59,3
+2,fishing,good,-926.0,67,49,2
+3,fishing,restricted,-926.0,80,59,3
+4,restricted_manoeuvrability,good,-926.0,67,49,2
+5,restricted_manoeuvrability,restricted,-926.0,80,59,3

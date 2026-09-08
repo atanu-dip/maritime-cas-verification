@@ -1,0 +1,6 @@
+cas_name,safety rate,collision rate,p05 min sep (m),worst min sep (m),compliance,progress loss (%),dangerous flips
+Risk-aware (conformal),0.5867,0.0567,180.0683,16.8284,0.6231,3.2134,0.0318
+MPC,0.5833,0.0467,206.6228,13.2678,0.4872,2.1174,0.0382
+Rule-based COLREGS,0.5667,0.1,66.2024,4.4301,0.6239,3.103,0.0292
+Velocity obstacle,0.56,0.1067,81.0831,4.8434,0.5714,3.0999,0.034
+No action (baseline),0.3867,0.1167,72.3394,10.1785,0.1683,0.0,0.014

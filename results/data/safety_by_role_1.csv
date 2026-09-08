@@ -1,0 +1,4 @@
+role,MPC,No action (baseline),Rule-based COLREGS,Velocity obstacle
+both_give_way,1.0,0.425,1.0,0.8375
+give_way,0.9833,0.4278,0.9944,1.0
+stand_on,1.0,0.45,0.55,0.95

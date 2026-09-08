@@ -1,0 +1,4 @@
+strategy,safety rate,median min sep (m),p05 min sep (m),compliance,progress loss (%)
+MPC (expert),0.9944,1045.8,953.43,0.4111,3.0591
+Rule-based COLREGS,0.9222,1344.6159,636.9077,0.6333,3.5994
+Learned policy (BC),0.4722,907.2467,94.6018,0.5532,6.0407

@@ -1,0 +1,33 @@
+
+
+1. Directed search finds failures that uniform sampling does not.
+   Simulations to the first counterexample (mean over encounter types):
+     random search        34.0
+     CMA-ES               136
+     Bayesian opt.        40
+   Worst robustness reached: random -134 m, CMA-ES -371 m, BO -578 m.
+   A test campaign that samples is measuring frequency, not safety.
+
+2. Counting violations overstates what a falsifier found.
+   Distinct counterexamples after clustering: CMA-ES 18 from 28 violations; BO 43 from 82.
+   CMA-ES concentrates on one basin; BO spreads. Neither is strictly better,
+   and the difference only shows up if diversity is measured.
+
+3. Behaviour cloning loses safety that imitation error does not predict.
+   Held-out imitation MSE was 0.00137 (small probe set -- policy was loaded from checkpoint, not retrained), yet closed-loop safety fell from 0.994 (MPC) to 0.472 (policy),
+   and 5th-percentile separation from 953 m to 95 m.
+   The policy's own errors carry it into states the expert never visited.
+
+4. Learned controllers are flattered by random testing.
+   Learned policy (BC)    random ρ =     -709 m, CMA-ES ρ =     -772 m (gap 63 m)
+   Rule-based COLREGS     random ρ =     -441 m, CMA-ES ρ =     -275 m (gap -166 m)
+
+5. Distillation makes the expert deployable.
+   MPC 36689 µs per decision vs 36.9 µs for the policy (995x),
+   at a model size of 40 kB.
+   The safety cost of that speed is item 3, and it is not small.
+
+
+  Falsification attacks the system under test, not the simulator. Every
+  counterexample here is a reproducible scenario specification, replayable
+  from its parameter vector alone.

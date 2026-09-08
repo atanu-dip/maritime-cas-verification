@@ -1,0 +1,11 @@
+,0
+pd_height_px_50,18.464271413679825
+pd_slope,2.64434174065248
+pd_ceiling,0.9468926553672317
+sigma_u_px,3.424491029037001
+sigma_v_px,3.5352459917481407
+false_alarm_rate,0.02
+class_confusion,0.0
+horizon_pd_falloff,0.55
+fitted,True
+notes,"fitted from 4455 instances on real imagery, content scaled at fixed network input (apparent height 1.8-643 px)"

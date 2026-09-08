@@ -1,0 +1,115 @@
+encounter,method,rho,dcpa_m,tcpa_min,own_kn,tgt_kn,heading
+crossing,Random search,-342.176,463.452,17.911,15.527,9.61,338.351
+crossing,CMA-ES,-58.484,92.96,10.0,13.911,13.901,340.0
+crossing,CMA-ES,-8.589,393.687,18.604,12.912,16.0,340.0
+crossing,CMA-ES,-852.456,0.0,13.775,11.755,16.0,340.0
+crossing,CMA-ES,-852.86,196.051,15.94,10.55,16.0,340.0
+crossing,CMA-ES,-862.083,148.151,10.0,11.501,15.954,340.0
+crossing,CMA-ES,-852.793,83.452,18.704,9.244,16.0,340.0
+crossing,CMA-ES,-174.67,0.0,19.46,11.76,15.143,333.015
+crossing,CMA-ES,-24.108,0.0,10.0,14.188,13.561,340.0
+crossing,CMA-ES,-764.194,228.933,10.0,8.628,16.0,330.397
+crossing,CMA-ES,-868.651,0.0,10.0,12.37,14.611,340.0
+crossing,CMA-ES,-148.601,0.0,11.293,8.553,13.268,317.414
+crossing,CMA-ES,-889.79,0.0,10.0,12.03,14.365,340.0
+crossing,Bayesian optimisation,-679.203,362.415,19.266,8.279,14.199,338.936
+crossing,Bayesian optimisation,-566.114,291.022,15.529,8.242,9.924,339.15
+crossing,Bayesian optimisation,-909.458,3.085,28.945,8.05,12.777,329.763
+crossing,Bayesian optimisation,-591.531,90.981,10.542,8.094,9.122,332.681
+crossing,Bayesian optimisation,-658.272,48.811,25.637,8.051,9.124,337.585
+crossing,Bayesian optimisation,-870.484,62.678,14.507,8.328,14.448,338.941
+crossing,Bayesian optimisation,-613.121,427.396,12.552,8.548,15.175,335.746
+crossing,Bayesian optimisation,-844.542,14.09,26.776,8.025,14.231,336.825
+crossing,Bayesian optimisation,-907.612,78.558,13.645,8.158,12.439,339.023
+crossing,Bayesian optimisation,-146.31,36.035,11.851,8.942,8.068,336.837
+crossing,Bayesian optimisation,-809.131,206.658,10.773,8.947,14.401,337.573
+crossing,Bayesian optimisation,-804.233,183.43,10.997,8.24,13.284,336.196
+crossing,Bayesian optimisation,-897.232,130.365,10.718,8.565,15.956,338.965
+crossing,Bayesian optimisation,-756.478,340.769,13.045,8.434,12.135,338.652
+crossing,Bayesian optimisation,-704.091,263.607,10.508,8.561,12.055,334.501
+crossing,Bayesian optimisation,-70.868,423.195,10.989,8.17,15.239,323.38
+crossing,Bayesian optimisation,-923.713,76.037,18.3,8.558,13.505,337.818
+crossing,Bayesian optimisation,-917.881,60.743,23.585,8.494,14.569,332.296
+crossing,Bayesian optimisation,-886.969,89.219,19.22,8.814,15.678,337.257
+crossing,Bayesian optimisation,-605.105,511.86,18.381,8.43,11.624,339.153
+crossing,Bayesian optimisation,-913.12,48.409,25.609,8.213,12.521,336.619
+crossing,Bayesian optimisation,-829.843,118.017,28.622,8.196,13.287,331.782
+crossing,Bayesian optimisation,-920.148,114.556,10.085,8.322,15.398,336.56
+crossing,Bayesian optimisation,-915.33,105.076,29.976,8.029,15.279,335.814
+crossing,Bayesian optimisation,-439.433,709.306,11.172,8.395,15.042,338.751
+crossing,Bayesian optimisation,-629.01,569.159,11.778,10.12,15.359,339.551
+crossing,Bayesian optimisation,-912.748,59.042,16.854,8.046,13.682,335.529
+crossing,Bayesian optimisation,-175.924,41.481,28.948,8.285,12.799,323.572
+crossing,Bayesian optimisation,-907.866,39.106,13.847,9.556,14.255,336.829
+crossing,Bayesian optimisation,-826.599,196.903,24.199,8.115,15.923,333.001
+crossing,Bayesian optimisation,-845.999,111.271,15.954,8.957,13.653,334.186
+crossing,Bayesian optimisation,-795.895,12.256,21.089,8.992,15.802,339.115
+crossing,Bayesian optimisation,-806.578,215.686,21.78,8.24,13.7,338.55
+crossing,Bayesian optimisation,-892.317,76.304,10.293,8.937,13.121,337.306
+crossing,Bayesian optimisation,-904.347,147.339,20.052,8.286,14.902,338.342
+crossing,Bayesian optimisation,-877.458,108.319,15.587,9.104,14.023,336.436
+crossing,Bayesian optimisation,-880.468,125.718,10.547,8.735,13.746,338.087
+crossing,Bayesian optimisation,-906.186,96.725,28.166,8.107,14.122,335.086
+crossing,Bayesian optimisation,-843.043,14.933,19.419,8.692,15.813,334.156
+crossing,Bayesian optimisation,-888.933,29.283,12.135,11.801,14.834,339.769
+crossing,Bayesian optimisation,-912.377,58.502,29.106,9.922,13.9,338.715
+crossing,Bayesian optimisation,-858.876,1.578,19.914,11.809,15.479,336.509
+crossing,Bayesian optimisation,-909.734,18.249,19.671,9.448,14.129,334.363
+crossing,Bayesian optimisation,-911.115,43.586,12.622,8.781,14.742,332.626
+crossing,Bayesian optimisation,-914.111,18.658,28.669,9.144,13.859,332.973
+crossing,Bayesian optimisation,-863.459,56.675,21.342,11.859,15.594,337.539
+crossing,Bayesian optimisation,-890.48,15.115,17.042,8.529,12.451,339.069
+crossing,Bayesian optimisation,-898.871,32.145,22.034,10.576,15.352,336.458
+crossing,Bayesian optimisation,-897.054,11.851,29.362,8.603,15.087,329.778
+crossing,Bayesian optimisation,-360.411,106.618,12.991,13.272,15.918,338.903
+crossing,Bayesian optimisation,-917.425,61.77,23.383,10.108,14.22,339.637
+crossing,Bayesian optimisation,-849.676,26.435,19.738,10.212,15.705,338.134
+crossing,Bayesian optimisation,-914.635,65.123,27.525,9.154,15.228,332.952
+crossing,Bayesian optimisation,-860.534,138.457,12.419,9.373,15.485,334.041
+crossing,Bayesian optimisation,-899.669,18.387,13.717,8.004,13.406,333.372
+crossing,Bayesian optimisation,-909.469,23.901,10.008,10.502,15.891,329.603
+overtaking,Random search,-18.223,463.452,17.911,15.527,9.61,11.717
+overtaking,Random search,-82.273,843.718,28.117,14.893,11.893,10.441
+overtaking,Random search,-67.236,234.301,29.457,15.306,9.175,11.363
+overtaking,CMA-ES,-120.848,805.152,10.0,11.297,8.297,12.0
+overtaking,CMA-ES,-72.537,853.451,11.131,14.016,11.016,12.0
+overtaking,CMA-ES,-206.626,719.374,10.0,10.741,7.741,12.0
+overtaking,CMA-ES,-223.973,702.027,10.0,9.496,6.496,12.0
+overtaking,CMA-ES,-56.359,0.0,10.0,14.401,11.401,-0.346
+overtaking,CMA-ES,-53.961,0.0,10.0,15.364,12.364,-0.217
+overtaking,CMA-ES,-10.349,65.127,10.0,13.698,10.698,-4.075
+overtaking,CMA-ES,-36.151,84.926,10.0,15.824,12.824,-1.87
+overtaking,CMA-ES,-53.491,0.0,10.0,15.03,12.03,0.398
+overtaking,CMA-ES,-52.553,0.0,10.0,16.0,13.0,-0.106
+overtaking,CMA-ES,-11.689,148.758,10.001,16.0,13.0,1.626
+overtaking,CMA-ES,-5.005,47.812,10.0,14.62,11.62,3.556
+overtaking,CMA-ES,-15.427,165.493,10.0,16.0,13.0,0.922
+overtaking,CMA-ES,-43.741,105.276,10.0,14.557,11.557,-1.409
+overtaking,CMA-ES,-27.875,0.0,10.0,14.573,11.573,-2.544
+overtaking,CMA-ES,-7.183,209.382,10.0,15.483,12.483,-2.366
+overtaking,Bayesian optimisation,-23.846,902.151,10.558,8.208,5.208,11.788
+overtaking,Bayesian optimisation,-159.049,26.533,12.487,8.041,5.041,-2.667
+overtaking,Bayesian optimisation,-78.924,0.39,10.024,8.576,5.576,4.455
+overtaking,Bayesian optimisation,-25.523,213.615,10.342,8.367,5.367,-3.6
+overtaking,Bayesian optimisation,-802.283,170.706,10.071,8.036,5.036,-6.855
+overtaking,Bayesian optimisation,-83.048,69.085,10.204,8.256,5.256,-0.094
+overtaking,Bayesian optimisation,-2.097,165.643,10.122,8.365,5.365,8.525
+overtaking,Bayesian optimisation,-13.4,275.534,10.103,8.258,5.258,-7.24
+overtaking,Bayesian optimisation,-14.139,133.422,11.831,8.479,5.479,-11.599
+overtaking,Bayesian optimisation,-62.479,121.937,10.324,8.171,5.171,-1.729
+overtaking,Bayesian optimisation,-3.343,922.657,10.086,15.977,12.977,11.19
+overtaking,Bayesian optimisation,-60.407,78.271,10.57,8.049,5.049,-2.459
+overtaking,Bayesian optimisation,-719.681,289.817,10.684,8.108,5.108,-9.688
+overtaking,Bayesian optimisation,-56.641,207.756,10.0,8.187,5.187,-6.607
+overtaking,Bayesian optimisation,-543.692,315.371,10.083,9.078,6.078,-9.519
+overtaking,Bayesian optimisation,-502.781,169.063,10.467,8.68,5.68,-8.575
+overtaking,Bayesian optimisation,-16.138,223.887,10.858,9.222,6.222,-10.697
+overtaking,Bayesian optimisation,-77.31,187.877,10.782,9.087,6.087,-8.58
+overtaking,Bayesian optimisation,-38.275,197.755,10.175,8.671,5.671,-6.111
+overtaking,Bayesian optimisation,-553.807,211.379,10.636,8.34,5.34,-11.82
+overtaking,Bayesian optimisation,-76.063,310.82,11.557,8.442,5.442,-10.305
+overtaking,Bayesian optimisation,-447.318,48.259,10.621,8.525,5.525,-9.824
+overtaking,Bayesian optimisation,-763.818,119.145,10.079,8.293,5.293,-6.736
+overtaking,Bayesian optimisation,-822.733,83.386,10.394,8.171,5.171,-4.263
+overtaking,Bayesian optimisation,-270.056,88.172,11.482,8.206,5.206,-7.493
+overtaking,Bayesian optimisation,-135.157,47.963,10.483,8.943,5.943,-4.556

@@ -1,0 +1,5 @@
+cas_name,perfect information,perception in the loop,Δ safety,perfect collisions,perception collisions,compliance Δ
+MPC,0.99,0.5633,-0.4267,0.0,0.09,0.0944
+No action (baseline),0.42,0.42,0.0,0.1367,0.1367,0.0
+Rule-based COLREGS,0.92,0.5767,-0.3433,0.0033,0.0733,0.0425
+Velocity obstacle,0.97,0.5867,-0.3833,0.0233,0.0867,0.1772

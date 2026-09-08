@@ -1,0 +1,5 @@
+tgt_status,flip_dangerous_rate,flip_conservative_rate,safe,min_dist_m,n
+fishing,0.0,0.0,0.63636,1151.02901,22
+not_under_command,0.0,0.0,0.5,1046.04961,10
+power_driven,0.04032,0.22752,0.57143,1011.84801,252
+restricted_manoeuvrability,0.0,0.0,0.75,1121.24406,16

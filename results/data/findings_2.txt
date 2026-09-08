@@ -1,0 +1,57 @@
+
+1. Perception costs a large, measurable fraction of the safety that the
+   perfect-information harness reported.
+   Mean safety: 0.825 (truth) -> 0.537 (perception), a change of -0.288.
+   Collisions: 0.041 -> 0.097.
+   Hardest hit: MPC (-0.427) -- the strategy
+   that optimises hardest against the state estimate loses the most when
+   that estimate is wrong.
+
+2. Geometry, not sensor quality, sets the range limit.
+   Horizon at 8.6 nm; beyond it a vessel is hull-down
+   and the waterline range cue does not exist at all. Range uncertainty grows
+   as R^2 for both monocular cues, which is projection geometry rather than a
+   property of the detector.
+
+3. Velocity is not observable from one frame, and the delay is expensive.
+   Mean time to a usable track: 19.8 min.
+   Mean TCPA remaining at that moment: 4.0 min.
+   COLREGS Rule 8(a) requires avoiding action 'in ample time'. The filter
+   spends much of that time before it can say anything about course and speed.
+
+4. COLREGS role inversion is real in this phase, and its cause is POSITION
+   ERROR rather than misclassification.
+   Mean role-flip rate: 0.235.
+   Measured Rule 18 class confusion: 0.000.
+   SMD annotates craft type, not legal status: only 'Sail boat' maps to a
+   privileged COLREGS category, and the detector never confuses it. The
+   by-status split confirms the mechanism -- inversions occur only for
+   power-driven targets, because Rule 18 pins the role for privileged
+   vessels no matter where they appear to be. Classification-driven
+   inversion is deferred to Phase 2b, where CLIP supplies the category
+   zero-shot for the classes no maritime dataset labels.
+
+5. Camera resolution: measured, not assumed.
+      640×360: safety 0.524, detection 0.024, track delay 21.0 min
+     1280×720: safety 0.548, detection 0.042, track delay 19.5 min
+    1920×1080: safety 0.614, detection 0.059, track delay 18.9 min
+    3840×2160: safety 0.676, detection 0.087, track delay 16.6 min
+   Span 0.152, monotonic in resolution: resolution is a material constraint.
+
+6. COLREGS compliance ROSE under perception (max +0.177, Velocity obstacle).
+   This is an artefact and must not be read as an improvement: a CAS with an
+   unusable track manoeuvres less, and several rules -- notably Rule 17's
+   'keep your course and speed' -- reward inaction. Safety and compliance
+   have to be read together.
+
+
+Methodological note:
+  scenario sampler : scenic
+  detector         : YOLOv8
+  error model      : fitted from 4455 instances on real imagery, content scaled at fixed network input (apparent height 1.8-643 px)
+  horizon accuracy : not validated; nominal geometric horizon used (optimistic)
+  Detection performance is measured on real imagery across five scales, so
+  the fitted curve covers the apparent sizes the encounters actually
+  produce. The closed-loop campaign then runs on that fitted model, because
+  no recorded video can show the view produced by a manoeuvre that never
+  happened.

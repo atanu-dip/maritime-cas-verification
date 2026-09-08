@@ -1,0 +1,5 @@
+cas_name,starboard_alteration,substantial_action,early_action,no_cross_ahead,stand_on_held
+MPC,0.45,0.0615,0.5731,0.6833,0.75
+No action (baseline),0.0,0.0,0.0,0.4667,1.0
+Rule-based COLREGS,0.5231,0.5385,0.5731,0.75,1.0
+Velocity obstacle,0.5231,0.0846,0.5731,0.6667,0.725

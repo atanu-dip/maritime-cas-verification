@@ -1,0 +1,4 @@
+method,best robustness (m),violations found,distinct counterexamples,evals to first violation
+Bayesian optimisation,-577.581,82,43,40.5
+CMA-ES,-371.176,28,18,135.5
+Random search,-134.22,4,4,34.0

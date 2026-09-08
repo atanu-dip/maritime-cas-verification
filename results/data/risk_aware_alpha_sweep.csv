@@ -1,0 +1,6 @@
+strategy,alpha,safety rate,collision rate,p05 min sep (m),progress loss (%),compliance,conservative steps
+Rule-based (point estimate),,0.65,0.0583,174.3926,3.4121,0.666,0.0
+Risk-aware (α=0.2),0.2,0.6333,0.0417,215.9129,3.3111,0.6562,316.9917
+Risk-aware (α=0.1),0.1,0.625,0.0417,215.9129,3.4837,0.6604,318.475
+Risk-aware (α=0.05),0.05,0.625,0.0417,215.9129,3.5673,0.6826,318.1917
+Risk-aware (α=0.01),0.01,0.625,0.0417,215.9129,3.6046,0.6937,318.0167

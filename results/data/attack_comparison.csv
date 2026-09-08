@@ -1,0 +1,9 @@
+,system,encounter,search,best ρ (m),violations,distinct,evals to first
+0,Rule-based COLREGS,crossing,random,-901.336,1,1,33.0
+1,Rule-based COLREGS,crossing,cmaes,-910.837,40,14,24.0
+2,Rule-based COLREGS,head_on,random,19.657,0,0,
+3,Rule-based COLREGS,head_on,cmaes,361.617,0,0,
+4,Learned policy (BC),crossing,random,-813.003,26,26,1.0
+5,Learned policy (BC),crossing,cmaes,-619.715,63,28,6.0
+6,Learned policy (BC),head_on,random,-605.397,42,42,1.0
+7,Learned policy (BC),head_on,cmaes,-924.266,117,34,1.0

@@ -1,0 +1,4 @@
+visibility,safe,detection_rate
+good,0.5489,0.055
+moderate,0.4856,0.0411
+restricted,0.5278,0.0088

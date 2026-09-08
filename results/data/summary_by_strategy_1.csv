@@ -1,0 +1,5 @@
+cas_name,n,safety_rate,domain_respected,collision_rate,mean_min_dist_m,worst_min_dist_m,p05_min_dist_m,compliance,progress_loss_pct,mean_alteration_deg,safety_lo,safety_hi
+MPC,300,0.99,0.9633,0.0,1109.5508,786.7676,980.7055,0.4333,2.4662,9.0657,0.971,0.9966
+Velocity obstacle,300,0.95,0.9333,0.0233,1100.8317,15.5554,920.5529,0.4542,1.1899,10.5683,0.9192,0.9695
+Rule-based COLREGS,300,0.9367,0.96,0.0067,1645.6791,20.6281,748.6871,0.6189,3.2183,20.7612,0.9032,0.9591
+No action (baseline),300,0.43,0.7567,0.11,795.6099,7.6341,86.2427,0.1567,0.0,0.0,0.3752,0.4866

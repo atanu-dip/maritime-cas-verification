@@ -1,0 +1,9 @@
+,cells hit,cells reachable,coverage %
+relative_bearing,11.0,16.0,68.75
+relative_heading,12.0,12.0,100.0
+speed_ratio,4.0,4.0,100.0
+dcpa_band,4.0,4.0,100.0
+vessel_status,4.0,4.0,100.0
+visibility,3.0,3.0,100.0
+bearing_x_heading,35.0,41.0,85.37
+encounter_x_role,5.0,5.0,100.0
