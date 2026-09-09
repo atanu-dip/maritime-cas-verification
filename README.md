@@ -87,16 +87,7 @@ Phase 2’s detector is fine-tuned on real maritime imagery, and Phase 2/4's hor
 - Encounters are pairwise; multi-vessel situations are not yet modelled.
 - The learned policy is a compact MLP trained by behavior cloning, not a state-of-the-art architecture - its failure modes are a lower bound on what a more capable learned controller might also exhibit.
 
-# Citation
 
-```
-@software{das_maritime_cas,
-  author = {Das, Atanu},
-  title  = {Scenario-Based Testing of Maritime Collision Avoidance Systems},
-  year   = {2025},
-  url    = {https://github.com/atanu-dip/maritime-cas-verification}
-}
-```
 
 # Acknowledgements
 
